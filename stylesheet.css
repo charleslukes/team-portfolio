@@ -6,8 +6,9 @@
 }
 
 .footer .box{
-  background-color: dodgerblue;
+  /* background-color: dodgerblue; */
   color: aliceblue;
+  font-family: sans-serif;
   padding:  -10px;
   width: 50%;
   margin: 40px;
@@ -15,12 +16,18 @@
   font-size: 20px;
 }
 .box .left {
-  border: 5px solid black;
+  /* border: 5px solid black; */
   padding: 30px; 
   margin: 10px;
 }
+.display {
+    display: flex;
+}
+.icon{
+    width: 20%;
+}
 .box .right{
-  border: 5px solid black;
+  /* border: 5px solid black; */
   padding: 30px;
   margin: 10px;
 }
