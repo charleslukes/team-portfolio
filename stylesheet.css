@@ -18,8 +18,8 @@ img {
     background-size: cover;
     height: 100%;
     margin: 0 auto;
-    padding: 0px 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 50px;
+    font-family: Alef;
 }
 
 #content {
@@ -32,7 +32,7 @@ img {
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 100;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Alef;
     max-width: 60rem;
     margin: 20px auto;
     text-align: center;
@@ -107,5 +107,42 @@ div .box3 {
 .persona_role {
     color: rgb(233, 223, 223);
     font-size: 1.4em;
+}
+
+.footer{
+    display: flex;
+    height: 55vh;
+    width: 100%;
+    background: rgb(24, 29, 32)
+}
+
+.footer .box{
+  color: aliceblue;
+  font-family: Alef;
+  padding:  -10px;
+  width: 50%;
+  margin: 40px;
+  font-size: 20px;
+}
+
+.box .left {
+  padding: 30px; 
+  margin: 10px;
+}
+
+.display {
+    display: flex;
+}
+
+.icon{
+    width: 20%;
+}
+
+div img{
+    height: 40px;
+}
+.box .right{
+  padding: 20px;
+  margin: 15px;
 }
 
