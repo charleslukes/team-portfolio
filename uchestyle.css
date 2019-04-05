@@ -1,0 +1,177 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+.nav_container {
+    width: 80%;
+    margin: 0 auto;
+  } 
+  
+  .nav_container h1 {
+      vertical-align: baseline;
+  }
+  
+  header {
+    background: #55d6aa;
+  }
+  
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .logo {
+    float: left;
+    padding: 10px 0;
+    color: rgb(129, 126, 126)
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding-top: 20px;
+  
+    position: relative;
+  }
+  
+  nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+
+.personal_info_content {
+    background: rgba(78, 49, 187, 0.2) url(assets/mac_book_pro_1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 2.5rem auto;
+    padding: 20px;
+    align-items: center;
+    color: white;
+
+}
+
+#personal_info {
+    background: rgba(255, 255, 255, 0.8);
+    width: 60%;
+    height: 100%;
+    margin: 30px auto;
+    padding: 30px;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    color:black;
+    text-align: justify;
+    font-family: cursive;
+    letter-spacing: 0.1rem;
+}
+
+.personal_info_content h1 {
+    font-weight: bold;
+    font-size: 2.0rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+
+}
+
+.flex-container {
+    justify-content: center;
+    flex-flow: column;
+    align-content: space-between;
+    text-align: center;
+}
+
+.flex-container div {
+    width: 30%;
+    margin: 20px auto;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div .box1 {
+    background: url(assets/Hand-Sum.jpg) center center no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    padding: 30px 8px;
+    border-radius: 50%;
+}
+
+.footer{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    background: rgb(24, 29, 32);
+}
+
+.footer .box{
+  color: aliceblue;
+  padding:  -10px;
+  width: 50%;
+  margin: 40px;
+  font-size: 20px;
+}
+
+.box .left {
+  padding: 30px; 
+  margin: 10px;
+}
+
+.display {
+    display: flex;
+}
+
+.icon{
+    width: 20%;
+}
+
+div img{
+    height: 40px;
+}
+.box .right{
+  padding: 20px;
+  margin: 15px;
+}
