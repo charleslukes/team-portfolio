@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+    background: rgb(24, 29, 32)
+}
+
+.footer .box{
+  background-color: dodgerblue;
+  width: 50%;
+  margin: 40px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.box .left {
+  border: 5px solid red;
+  padding: 50px;
+  margin: 20px;
+}
+.box .right{
+  border: 5px solid red;
+  padding: 50px;
+  margin: 20px;
+}
