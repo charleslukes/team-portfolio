@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    height: 75vh;
+    width: 100%;
+    background: rgb(24, 29, 32)
+}
+
+.footer .box{
+  color: aliceblue;
+  font-family: sans-serif;
+  padding:  -10px;
+  width: 50%;
+  margin: 40px;
+  font-size: 20px;
+}
+.box .left {
+  padding: 30px; 
+  margin: 10px;
+}
+.display {
+    display: flex;
+}
+.icon{
+    width: 20%;
+}
+img{
+    height: 40px;
+    
+}
+.box .right{
+  padding: 18px;
+  margin: 15px;
+}
