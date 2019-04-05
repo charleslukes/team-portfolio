@@ -1,9 +1,10 @@
-/* Style.css for body done By Handsum Muse */
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: Alef;
 }
 a {
     text-decoration: none;
@@ -13,13 +14,86 @@ img {
     max-width: 100%;
 }
 
+.nav_container {
+  width: 80%;
+  margin: 0 auto;
+} 
+
+
+.nav_container h1 {
+    vertical-align: baseline;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  color: rgb(129, 126, 126)
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 70px;
+  padding-top: 20px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
 #container {
     background: rgb(87, 22, 15) url(assets/mac_book_pro_2.jpg) center center no-repeat;
     background-size: cover;
     height: 100%;
     margin: 0 auto;
     padding: 50px;
-    font-family: Alef;
 }
 
 #content {
@@ -32,7 +106,6 @@ img {
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     font-weight: 100;
-    font-family: Alef;
     max-width: 60rem;
     margin: 20px auto;
     text-align: center;
@@ -109,16 +182,16 @@ div .box3 {
     font-size: 1.4em;
 }
 
+/* Footer for landing Page. */
 .footer{
     display: flex;
-    height: 55vh;
+    height: 50vh;
     width: 100%;
-    background: rgb(24, 29, 32)
+    background: rgb(24, 29, 32);
 }
 
 .footer .box{
   color: aliceblue;
-  font-family: Alef;
   padding:  -10px;
   width: 50%;
   margin: 40px;
