@@ -89,7 +89,7 @@ nav a:hover::before {
 }
 
 #container {
-    background: rgb(87, 22, 15) url(assets/mac_book_pro_2.jpg) center center no-repeat;
+    background: rgb(87, 22, 15) url(assets/mac_book_pro_1.jpg) center center no-repeat;
     background-size: cover;
     height: 110%;
     margin: 0 auto;
@@ -183,7 +183,6 @@ div .box3 {
     font-size: 1.4em;
 }
 
-/* Footer for landing Page. */
 .footer{
     display: flex;
     height: 50vh;
