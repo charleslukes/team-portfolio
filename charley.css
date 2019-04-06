@@ -32,12 +32,16 @@ body{
     font-size: 40px;
     display: block;
     letter-spacing: 1.7px;
+    animation-name: moveRight;
+    animation-duration: 1s; 
 }
 
 .detail{
     font-weight: 500;
     font-size: 20px;
     display: block;
+    animation-name: moveLeft;
+    animation-duration: 1s; 
 }
 
 .about{
@@ -52,3 +56,29 @@ body{
 /* 
     animation
 */
+
+@keyframes moveRight{
+    0%{
+        opacity: 0;
+      transform: translateX(-100px);
+    }
+    80%{
+        transform: translateX(10px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes moveLeft{
+    0%{
+        opacity: 0;
+      transform: translateX(100px);
+    }
+    80%{
+        transform: translateX(10px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
