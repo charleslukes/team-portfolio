@@ -4,3 +4,70 @@ body {
     font-family: 'Nunito', sans-serif;
     background: #eff1f7;
 }
+
+.content {
+    grid-area: content;
+}
+
+.sideBar {
+    grid-area: sideBar;
+    background: linear-gradient(to right, rgba(249, 109, 142, 1), rgba(218, 103, 230, 1), rgba(130, 125, 253, 1));
+    justify-content: space-around;
+    align-items: center;
+}
+  
+
+nav li {
+    margin-left: -10px
+}
+
+.footer {
+    grid-area: footer;
+    background: white
+}
+
+
+.container {
+    font-size: 1.5em;
+    width: 100%;
+    height: 100vh; 
+    display: grid;
+    grid-template-areas: 
+        "sideBar"
+        "content" 
+        "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 800px 250px
+}
+
+.content,
+.sideBar
+.footer {
+    padding: 0.5em
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 1em 0
+}
+
+nav li a {
+    color: white;
+    font-weight: 700;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: 0.3s
+}
+
+
+nav li a:hover {
+    opacity:1
+}
