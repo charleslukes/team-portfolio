@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+
+#about h1 {
+    font-weight: bold;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.0rem;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    color: white;
+}
+
+#flex-container i {
+    margin: 5px auto;
+    padding: 12px 8px;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.section-content {
+    padding: 4rem 0;
+}
+
+div .box1 {
+    background: url(assets/Hand-Sum.jpg) center center no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 12px 8px;
+    border-radius: 50%;
+}
+
+#about {
+    background: url(assets/mac-pc.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.85rem;
+    width: 60%;
+    margin: 5px auto;
+}
+
+#skills {
+    background: rgba(66, 66, 66, 0.151);
+    font-size: 1.6rem;
+}
+
+#skills-text {
+    padding: 0 2.5rem;
+    margin: 5px auto;
+}
+
+ul {
+        list-style-type: none;
+}
+
+#projects {
+    background: url(assets/strategy.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.projects-text {
+    background: rgba(0,0,0,0.8);
+    width: 40%;
+    color: white;
+    line-height: 60px;
+    padding: 1.85rem;
+    width: 60%;
+    margin: 5px auto;
+}
+
+#contact {
+    background: rgba(68, 36, 36, 0.8) url(assets/laptop-dark.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    line-height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-text {
+    background: rgba(0, 0, 0, 0.9);
+    width: 60%;
+    margin: 2px auto;
+    padding: 1.2rem ;
+    color: white;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  box-shadow: rgba(48, 114, 67, 1.0);
+}
