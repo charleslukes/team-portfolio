@@ -1,177 +1,136 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
-img {
-    height: 100%;
-}
 
-.nav_container {
-    width: 80%;
-    margin: 0 auto;
-  } 
-  
-  .nav_container h1 {
-      vertical-align: baseline;
-  }
-  
-  header {
-    background: #55d6aa;
-  }
-  
-  header::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-  
-  .logo {
-    float: left;
-    padding: 10px 0;
-    color: rgb(129, 126, 126)
-  }
-  
-  nav {
-    float: right;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 70px;
-    padding-top: 20px;
-  
-    position: relative;
-  }
-  
-  nav a {
-    color: #444;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 800;
-  }
-  
-  nav a:hover {
-    color: #000;
-  }
-  
-  nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: #444;
-  
-    position: absolute;
-    top: 0;
-    width: 0%;
-  
-    transition: all ease-in-out 250ms;
-  }
-  
-  nav a:hover::before {
-    width: 100%;
-  }
-
-.personal_info_content {
-    background: rgba(78, 49, 187, 0.2) url(assets/mac_book_pro_1.jpg) center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    margin: 2.5rem auto;
-    padding: 20px;
-    align-items: center;
-    color: white;
-
-}
-
-#personal_info {
-    background: rgba(255, 255, 255, 0.8);
-    width: 60%;
-    height: 100%;
-    margin: 30px auto;
-    padding: 30px;
-    line-height: 1.6rem;
-    font-size: 1.1rem;
-    color:black;
-    text-align: justify;
-    font-family: cursive;
-    letter-spacing: 0.1rem;
-}
-
-.personal_info_content h1 {
+#about h1 {
     font-weight: bold;
     font-size: 2.0rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-transform: uppercase;
-
+    color: white;
+    text-align: center;
 }
 
-.flex-container {
+.centered {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.0rem;
+}
+
+#flex-container {
+    display: flex;
     justify-content: center;
-    flex-flow: column;
     align-content: space-between;
-    text-align: center;
+    color: white;
 }
 
-.flex-container div {
-    width: 30%;
-    margin: 20px auto;
-    height: 100%;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+#flex-container i {
+    margin: 5px auto;
+    padding: 12px 8px;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.section-content {
+    padding: 4rem 0;
 }
 
 div .box1 {
     background: url(assets/Hand-Sum.jpg) center center no-repeat;
     background-size: cover;
-    width: 80%;
-    height: 200px;
-    margin: 50px auto;
-    padding: 30px 8px;
+    width: 25%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 12px 8px;
     border-radius: 50%;
 }
 
-.footer{
+#about {
+    background: url(assets/mac-pc.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.85rem;
+    width: 60%;
+    margin: 5px auto;
+}
+
+#skills {
+    background: rgba(66, 66, 66, 0.151);
+    font-size: 1.6rem;
+}
+
+#skills-text {
+    padding: 0 2.5rem;
+    margin: 5px auto;
+}
+
+ul {
+        list-style-type: none;
+}
+
+#projects {
+    background: url(assets/strategy.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.projects-text {
+    background: rgba(0,0,0,0.8);
+    width: 40%;
+    color: white;
+    line-height: 60px;
+    padding: 1.85rem;
+    width: 60%;
+    margin: 5px auto;
+}
+
+#contact {
+    background: rgba(68, 36, 36, 0.8) url(assets/laptop-dark.jpg) center center no-repeat;
+    background-size: cover;
+    color: white;
+    line-height: 55px;
     display: flex;
-    height: 50vh;
-    width: 100%;
-    background: rgb(24, 29, 32);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
-.footer .box{
-  color: aliceblue;
-  padding:  -10px;
-  width: 50%;
-  margin: 40px;
-  font-size: 20px;
+.contact-text {
+    background: rgba(0, 0, 0, 0.9);
+    width: 60%;
+    margin: 2px auto;
+    padding: 1.2rem ;
+    color: white;
 }
 
-.box .left {
-  padding: 30px; 
-  margin: 10px;
-}
-
-.display {
-    display: flex;
-}
-
-.icon{
-    width: 20%;
-}
-
-div img{
-    height: 40px;
-}
-.box .right{
+input[type=text], textarea {
+  width: 100%;
   padding: 20px;
-  margin: 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  box-shadow: rgba(48, 114, 67, 1.0);
 }
