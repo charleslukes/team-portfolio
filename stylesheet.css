@@ -91,9 +91,8 @@ nav a:hover::before {
 #container {
     background: rgb(87, 22, 15) url(assets/mac_book_pro_1.jpg) center center no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 110%;
     margin: 0 auto;
-    padding: 50px;
 }
 
 #content {
@@ -107,7 +106,7 @@ nav a:hover::before {
     font-size: 1.2rem;
     font-weight: 100;
     max-width: 60rem;
-    margin: 20px auto;
+    margin: 1px auto;
     text-align: center;
 }
 
@@ -117,7 +116,7 @@ nav a:hover::before {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 70px auto; 
+    margin: 30px auto; 
     border-bottom: 2px solid silver;
 }
 
@@ -131,7 +130,7 @@ nav a:hover::before {
 }
 
 .flex-container div {
-    width: 30%;
+    width: 25%;
     margin: 20px auto;
     height: 500px;
     align-content: center;
@@ -140,7 +139,7 @@ nav a:hover::before {
 }
 
 div .box1 {
-    width: 80%;
+    width: 70%;
     height: 350px;
     margin: 30px auto;
     padding: 30px 8px;
@@ -151,7 +150,7 @@ div .box1 {
 div .box2 {
     background: url(assets/Handsum.jpg) center center no-repeat;
     background-size: cover;
-    width: 80%;
+    width: 70%;
     height: 350px;
     margin: 30px auto;
     padding: 30px 8px;
@@ -160,7 +159,9 @@ div .box2 {
 }
 
 div .box3 {
-    width: 80%;
+    background: url(assets/IMG_20190405_101525.jpg) center center no-repeat;
+    background-size: cover;
+    width: 70%;
     height: 350px;
     margin: 30px auto;
     padding: 30px 8px;
@@ -193,13 +194,13 @@ div .box3 {
   color: aliceblue;
   padding:  -10px;
   width: 50%;
-  margin: 40px;
+  margin: 20px;
   font-size: 20px;
 }
 
 .box .left {
   padding: 30px; 
-  margin: 10px;
+  margin: 0px;
 }
 
 .display {
