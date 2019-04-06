@@ -135,8 +135,11 @@ nav li a:hover {
         text-align: left;
         margin: 2em auto;
     }
-
     
+    .hero img {
+        width: 250px;
+        float: right
+    }
 
     .hero h1 {
         font-size: 3em
