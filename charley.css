@@ -103,7 +103,7 @@ body{
 /* The body */
 
 .main-page{
-    height: 70vh;
+    height: 65vh;
     position: relative;
 }
 
@@ -116,10 +116,26 @@ body{
 .story{
     position: absolute;
     top: 0;
-    left: 50%;   
+    left: 50%; 
+    margin-top: 20px;
+    margin-right: 90px;  
+    line-height: 2;
 }
 
 .info{
     font-size: 30px;
     font-weight: 600;
+}
+button{
+    background: steelblue;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+button:hover{
+    box-shadow: 5px 10px 18px rgb(19, 42, 61);
+    background: white;
+    color: black;
 }
