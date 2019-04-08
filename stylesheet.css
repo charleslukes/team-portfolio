@@ -1,22 +1,27 @@
-
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
-body {
-	margin: 0;
-	background: #222;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Alef;
+}
+a {
+    text-decoration: none;
 }
 
-.container {
-	width: 80%;
+img {
+    max-width: 100%;
+}
+
+.nav_container {
+  width: 80%;
   margin: 0 auto;
+} 
 
-}
 
-
-.container h1 {
-    vertical-align: baseline
+.nav_container h1 {
+    vertical-align: baseline;
 }
 
 header {
@@ -59,6 +64,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
+  font-weight: 800;
 }
 
 nav a:hover {
@@ -82,36 +88,136 @@ nav a:hover::before {
   width: 100%;
 }
 
-/* Footer for landing Page. */
+#container {
+    background: rgb(87, 22, 15) url(assets/mac_book_pro_1.jpg) center center no-repeat;
+    background-size: cover;
+    height: 110%;
+    margin: 0 auto;
+}
+
+#content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#content-caption {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 100;
+    max-width: 60rem;
+    margin: 1px auto;
+    text-align: center;
+}
+
+#content-caption h1 {
+    width: 60%;
+    letter-spacing: 0.4rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 30px auto; 
+    border-bottom: 2px solid silver;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-content: space-between;
+}
+
+.flex-container div {
+    width: 350px;
+    margin: 20px auto;
+    height: 300px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div .box1 {
+    background: url(assets/small.jpg) center center no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 70%;
+    margin: 30px auto;
+    padding: 30px 8px;
+    background-color: rgb(211, 43, 43);
+    border-radius: 50%;
+}
+
+div .box2 {
+    background: url(assets/Handsum.jpg) center center no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 70%;
+    margin: 30px auto;
+    padding: 30px 8px;
+    background-color: rgb(211, 29, 29);
+    border-radius: 50%;
+}
+
+div .box3 {
+    background: url(assets/IMG_20190405_101525.jpg) center center no-repeat;
+    background-size: cover;
+    width: 70%;
+    height: 70%;
+    margin: 30px auto;
+    padding: 30px 8px;
+    background-color: rgb(196, 43, 43);
+    border-radius: 50%;
+}
+
+.persona_name {
+    color: rgb(255, 255, 255);
+    font-size: 2.0rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    margin-bottom: -0.1px;
+}
+
+.persona_role {
+    color: rgb(233, 223, 223);
+    font-size: 1.4em;
+}
+
 .footer{
     display: flex;
-    height: 75vh;
+    height: 50vh;
     width: 100%;
-    background: rgb(24, 29, 32)
+    background: rgb(24, 29, 32);
 }
 
 .footer .box{
   color: aliceblue;
   padding:  -10px;
   width: 50%;
-  margin: 40px;
+  margin: 20px;
   font-size: 20px;
 }
+
 .box .left {
   padding: 30px; 
-  margin: 10px;
+  margin: 0px;
 }
+
 .display {
     display: flex;
 }
+
 .icon{
     width: 20%;
 }
-img{
+
+div img{
     height: 40px;
-    
 }
 .box .right{
-  padding: 18px;
+  padding: 20px;
   margin: 15px;
 }
+
