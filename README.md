@@ -2,12 +2,11 @@
 Portfolio for three smart developers.  
 This portfolio is that of Charles, Uche and Seyun. One of the worlds finest devs.  
 
-# Portfolio 
 ##  Charles
 Charles Ebuka Chiakwa is one of Nigeria's finest Software Engineer and has worked for top companies internationally. Check him out on twitter @charles_lukes.
 
 ## Uche
-Uchenna Egbo is a versatile and agile Software Engineer known for his great sense of humor. Uche has headed top tech companies over the last couple of years. Check him out on twitter @handsum  
+Uchenna Egbo is a versatile and agile Software Engineer known for his great sense of humor. Uche has headed top tech companies over the last couple of years. Check him out on twitter @penance_001 
 
 ## Seun
 
